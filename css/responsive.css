@@ -1,0 +1,235 @@
+/* media queries for background image and sidebar start */
+@media only screen and (max-width:1060px){
+    .container{
+
+        background: url('../img/bg.jpg');
+        height: 100%;
+        width: 100%;
+        /* background-position: 35% -2%; */
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+    }
+    
+    nav{
+        width: 50%;
+    }
+
+    nav ul li{
+        margin: 0;
+    }
+    .burger{
+        display: none;
+    }
+    .middle{
+        margin-top: 10%;
+    }
+    
+}
+@media only screen and (min-width:495px) and (max-width:880px){
+    .container{
+
+        background: url('../img/bg.jpg');
+        height: 100%;
+        width: 100%;
+        background-position: 35% -2%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav{
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 60px;
+        margin-right: 0;
+        box-sizing: border-box;
+        float: right;
+        height: 100vh;
+        width: 200px;
+        background-color: rgba(255, 4, 4, 0.777);
+        display: none;
+    }
+    
+    nav .nav_mid {
+        margin-right: 15px;
+    }
+    nav .nav_mid li{
+
+        margin:15px;
+        padding: 7px;
+        
+    }
+    nav .nav_mid li a{
+
+        color: white;
+    }
+
+    .burger{
+        display: block;
+        top: 39px;
+        float: right;
+        right: 22px;
+        position: absolute;
+    } 
+    
+    nav.show{
+        display: block;
+        z-index: 1;
+    }
+    .social_network #menu1{
+        transform: translateY(-92%);
+        position:absolute;
+        top: 523px;
+        right:7%;
+        display: inline-flex;
+    }
+
+    #menu1{
+        display:none;
+    }
+        
+    #menu1 .fa_icons{
+        margin:0px;
+    }
+        
+    #menu1 .fa_icons .icon{
+        padding:0;
+        overflow:hidden;
+    }
+
+    #menu1 .icon{
+        min-width:30px;
+        height:60%
+    }
+
+    #menu1 .fa_icons .icon .fa{
+        font-size:18px;
+        margin: auto;
+    }
+
+    #menu1 .icon_text{
+            display: none;
+        }
+        
+    #menu1.show{
+        display: flex;
+        margin-right: 44px;
+        height: 27px;
+        z-index: 1;
+    }
+        
+}
+
+@media only screen and (max-width:495px){
+    .container{
+        background: url('../img/bg.jpg');
+        height: 100%;
+        width: 100%;
+        background-position: 35% -2%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav{
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 80px;
+        margin-right: 0;
+        box-sizing: border-box;
+        float: right;
+        height: 100vh;
+        width: 200px;
+        background-color: rgba(255, 4, 4, 0.777);
+        display: none;
+    }
+    
+    nav .nav_mid {
+        margin-right: 15px;
+    }
+    nav .nav_mid li{
+
+        margin:15px;
+        padding: 7px;
+        
+    }
+    nav .nav_mid li a{
+
+        color: white;
+    }
+
+    .burger{
+        display: block;
+        top: 39px;
+        float: right;
+        right: 22px;
+        position: absolute;
+    } 
+    
+    nav.show{
+        display: block;
+    }
+    .social_network #menu1{
+        transform: translateY(-92%);
+        position:absolute;
+        top: 523px;
+        right:7%;
+        display: inline-flex;
+    }
+
+    #menu1{
+        display:none;
+    }
+        
+    #menu1 .fa_icons{
+        margin:0px;
+    }
+        
+    #menu1 .fa_icons .icon{
+        padding:0;
+        overflow:hidden;
+    }
+
+    #menu1 .icon{
+        min-width:30px;
+        height:60%
+    }
+
+    #menu1 .fa_icons .icon .fa{
+        font-size:18px;
+        margin: auto;
+    }
+
+    #menu1 .icon_text{
+            display: none;
+        }
+        
+    #menu1.show{
+        display: flex;
+        margin-right: 44px;
+        height: 27px;
+        z-index: 1;
+    }
+    nav{
+        background-color:rgb(238, 0, 0);
+        z-index: 1;
+    }
+    
+    .middle{
+        margin-top: 17%;
+        
+    }
+    .middle .para{
+        font-size: 10px;
+    }
+    
+
+}
+
+/* media queries for background image and sidebar end */
+
+/* display: flex;
+flex-direction: column;
+margin-right: 44px;
+margin-top: 68%;
+z-index: 1;  */
